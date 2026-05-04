@@ -1,8 +1,10 @@
 {
   "name": "API",
   "version": "1.0.0",
+  "type": "commonjs", 
   "description": "API Node.js",
   "main": "app.js",
+
   "scripts": {
     "start": "node app.js",
     "test": "jest --detectOpenHandles --forceExit"

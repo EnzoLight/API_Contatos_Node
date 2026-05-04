@@ -1,16 +1,16 @@
 {
-  "name": "APITESTE",
+  "name": "API",
   "version": "1.0.0",
-  "description": "APITESTE Node.js",
+  "description": "API Node.js",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "jest --detectOpenHandles --forceExit"
   },
   "dependencies": {
-    "express": "^5.0.0",
-    "mongoose": "^6.0.0",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "mongoose": "^6.13.9"
   },
   "devDependencies": {
     "jest": "^28.0.0",
@@ -23,4 +23,3 @@
     "testEnvironment": "node"
   }
 }
-
